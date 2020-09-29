@@ -7,6 +7,7 @@ class SearchData extends StatefulWidget {
 }
 
 class _SearchDataState extends State<SearchData> {
+  String cityName = "";
   @override
   Widget build(BuildContext context) {
     final double width = MediaQuery.of(context).size.width;
@@ -45,11 +46,7 @@ class _SearchDataState extends State<SearchData> {
                       SizedBox(
                         height: 30,
                       ),
-                      RaisedButton(
-                          child: Text('search'),
-                          onPressed: () {
-                            
-                          }),
+                      RaisedButton(child: Text('search'), onPressed: () {}),
                     ],
                   )),
                 ],
